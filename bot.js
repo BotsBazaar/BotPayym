@@ -5,8 +5,8 @@ const axios = require('axios');
 const { enter, leave } = Stage
 const stage = new Stage()
 const rateLimit = require('telegraf-ratelimit');
-var bot_token = '5595807431:AAGcd3-Yztal8bgtCgRHuezfUcwuJFPEvQo'; //YOUR BOT TOKEN HERE
-var bot_name = 'Paisaa_Walaa_Bot'; // Bot Name
+var bot_token = '5942125924:AAH2kx4zmWdX3jIzvAr3fDkBVwGmB3nmnlw'; //YOUR BOT TOKEN HERE
+var bot_name = 'CashBackBazaar_Bot'; // Bot Name
 const bot = new Telegraf(bot_token);
 let db;
 const wallet = new BaseScene('wallet')
@@ -44,9 +44,9 @@ stage.register(mid)
 const comment = new BaseScene('comment')
 stage.register(comment)
 var regex = new RegExp('.*')
-const admin_id = 1277524836;
-const admin_id2 = 1277524836;
-var mongo_url = 'mongodb+srv://GAURAV:g1g2g3g4@cluster0.bynii.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'; // Your Mongo URL Here
+const admin_id = 5213475189;
+const admin_id2 = 5253490070;
+var mongo_url = 'mongodb+srv://BotsBazaar1:Idkvro@cluster0.ergt6tn.mongodb.net/?retryWrites=true&w=majority'; // Your Mongo URL Here
 const buttonsLimit = {
     window: 1000,
     limit: 1,
